@@ -1,2 +1,17 @@
 # Reproducible-Research-Project-Saran-Pascaline-Mikolaj
-Reproducible Research Project ( Saran, Pascaline, Mikolaj)
+Reproducible Research Project (Saran, Pascaline, Mikolaj)
+
+# Reproducible Time-Series Momentum Strategy
+
+This project reproduces and extends the methodology from:
+
+Moskowitz, Ooi, Pedersen (2012)
+"Time Series Momentum"
+
+## Progress Log
+
+### Day 1
+- Project setup
+- Financial data download
+- Return computation
+- Baseline momentum signal implementation
