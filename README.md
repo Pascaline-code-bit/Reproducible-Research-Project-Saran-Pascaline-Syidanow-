@@ -15,3 +15,10 @@ Moskowitz, Ooi, Pedersen (2012)
 - Financial data download
 - Return computation
 - Baseline momentum signal implementation
+
+### Day 2
+- Vectorized backtesting engine
+- Portfolio aggregation
+- Benchmark comparison
+- Performance metrics
+- Strategy visualization
