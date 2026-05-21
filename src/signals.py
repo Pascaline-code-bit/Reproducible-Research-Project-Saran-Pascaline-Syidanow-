@@ -24,3 +24,19 @@ def compute_momentum_signal(
     signals = signals.shift(1)
 
     return signals
+
+def compute_multi_horizon_signals(prices):
+    """
+    Compute signals for multiple horizons:
+    1, 3, 6, 12 months
+    """
+
+    horizons = [21, 63, 126, 252]
+
+    signals = {}
+
+    for h in horizons:
+        sig = np.sign(prices.pct_change(h)).shift(1)
+        signals[h] = sig
+
+    return signals

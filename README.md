@@ -22,3 +22,9 @@ Moskowitz, Ooi, Pedersen (2012)
 - Benchmark comparison
 - Performance metrics
 - Strategy visualization
+
+### Day 3
+- Multi-horizon momentum (1, 3, 6, 12 months)
+- Overlapping portfolios
+- Volatility scaling
+- Cross-asset portfolio
